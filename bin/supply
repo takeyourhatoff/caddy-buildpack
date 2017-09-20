@@ -7,5 +7,5 @@ DEPS_DIR=$3
 DEPS_IDX=$4
 
 curl https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz | tar -C $CACHE_DIR -xzf -
-$CACHE_DIR/go/bin/go get go get github.com/mholt/caddy/caddy
+$CACHE_DIR/go/bin/go get github.com/mholt/caddy/caddy
 cp $CACHE_DIR/go/bin/caddy $DEPS_DIR
