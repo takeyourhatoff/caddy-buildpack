@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# bin/release <build-dir>
+
+BUILD_DIR=$1
+
+echo -e "---\ndefault_process_types:\n  web: $BUILD_DIR/caddy"
